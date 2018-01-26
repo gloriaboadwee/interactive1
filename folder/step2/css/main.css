@@ -2,7 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
-
 .rotate {
   transform: rotate(45deg);
 }
+h6 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
