@@ -3,5 +3,14 @@
     padding: 0px;
 }
 body {
-    color: "red";
+    color: #400080;
+    margin: 40px;
+    background-color: #c2c2d6;
+}
+h1 {
+  margin: 20px;
+  font-size: 100 px;
+}
+#intro {
+  color: blue;
 }
