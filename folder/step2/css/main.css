@@ -43,6 +43,9 @@ div.big2 {
     font-weight: bolder;
 }
 
+div.thin {
+  style="width:300px"
+}
 .slow {
     font-family: Courier, serif;
     letter-spacing: 11px;
@@ -56,4 +59,15 @@ div.big2 {
     word-spacing: 15px;
     color: white;
     line-height: 200%;
+}
+
+.calm {
+  font-family: Bookman, serif;
+  line-height: 190%;
+  font-size: 200%;
+  word-spacing: 8px;
+  padding-left: 300px;
+  padding-right: 300px;
+  top: 20px;
+  position: relative;
 }
