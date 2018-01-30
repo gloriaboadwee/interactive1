@@ -1,33 +1,44 @@
 
-p {
-  font-family: Comic Sans MS;
-}
-* {
-    margin: 0px;
-    padding: 0px;
-}
-.rotate {
-  transform: rotate(45deg);
-}
 
 .column {
     float: left;
     width: 50%;
 }
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 
-#section1 {
-  width: 400px;
-  margin: 200px;
-  position: absolute;
 }
-
+#section1 {
+  width: 900px;
+  margin: 100px;
+  position: absolute;
+  font-family: Comic Sans MS;
+}
 #section2 {
   width: 900px;
   margin: 100px;
   position: absolute;
+  font-family: Arial;
+}
+
+.reverse {
+  unicode-bidi:bidi-override;
+  direction:rtl;
+}
+
+div.big {
+    font-size: 550%;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+div.big2 {
+    font-size: 950%;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
