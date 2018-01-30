@@ -22,6 +22,15 @@
   position: absolute;
   font-family: Arial;
 }
+#section3 {
+  position: fixed;
+  right: 0;
+  padding-right: 20px;
+  top: 50%;
+  width: 15em;
+  margin-top: -2.5em;
+  font-family: Arial;
+}
 
 .reverse {
   unicode-bidi:bidi-override;
@@ -70,4 +79,10 @@ div.thin {
   padding-right: 300px;
   top: 20px;
   position: relative;
+}
+a:hover {
+  letter-spacing: -6px;
+  word-spacing: 2px;
+  line-height: 190%;
+
 }
