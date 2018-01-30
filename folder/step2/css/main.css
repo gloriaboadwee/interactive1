@@ -42,3 +42,18 @@ div.big2 {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
+.slow {
+    font-family: Courier, serif;
+    letter-spacing: 11px;
+    word-spacing: 15px;
+    color: #7a7d82;
+    line-height: 200%;
+}
+.slow:hover {
+    font-family: Courier, serif;
+    letter-spacing: 11px;
+    word-spacing: 15px;
+    color: white;
+    line-height: 200%;
+}
