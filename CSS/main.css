@@ -9,8 +9,23 @@ body {
 }
 h1 {
   margin: 20px;
-  font-size: 100 px;
+  font-size: 200 px;
 }
-#intro {
-  color: blue;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #c2c2d6;
+  border: 10px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  margin: 20px;
+  font-size: 200 px;
+  text-align: left;
 }
