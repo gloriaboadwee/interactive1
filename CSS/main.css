@@ -2,22 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abril-Fatface'), local('Abril-Fatface'), url(https://fonts.gstatic.com/s/lora/v12/bAULWXoql4X5j5Aw1uK9-xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
 body {
+    font-family: "Abril Fatface", serif;
     color: #400080;
-    margin: 40px;
+    margin: 40px "Abril Fatface";
     background-color: #c2c2d6;
 }
 h1 {
+  font-family: "Abril Fatface", serif;
   margin: 20px;
-  font-size: 200 px;
+  font-size: 300px "Abril Fatface";
+  font-weight: bold;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: max-content max-content;
   padding: 10px;
 }
 .grid-item {
+  font-family: "Abril Fatface", serif;
   background-color: #c2c2d6;
   border: 10px solid black;
   padding: 20px;
@@ -25,7 +36,24 @@ h1 {
   text-align: center;
 }
 h2 {
+  font-family: "Abril Fatface", serif;
   margin: 20px;
-  font-size: 200 px;
+  font-size: 200px "Abril Fatface";
   text-align: left;
 }
+
+.float2 {
+    float: left;
+}
+
+.float {
+    float: right;
+}
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7853e0+0,c7c1ff+100 */
+background: #7853e0; /* Old browsers */
+background: -moz-linear-gradient(top, #7853e0 0%, #c7c1ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7853e0 0%,#c7c1ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7853e0 0%,#c7c1ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7853e0', endColorstr='#c7c1ff',GradientType=0 ); /* IE6-9 */
