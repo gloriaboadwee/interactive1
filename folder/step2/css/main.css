@@ -85,18 +85,3 @@ a:hover {
   word-spacing: 2px;
   line-height: 190%;
 }
-
-@font-face {
-  font-family: 'Luckiest Guy';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Luckiest Guy'), local('Luckiest Guy'), url(https://fonts.googleapis.com/css?family=Luckiest+Guy) format('woff2');
-
-}
-.lucky {
-  font-family: 'Luckiest Guy', sans-serif;
-  padding-top: 20px;
-  font-size: 300px 'Luckiest Guy';
-  color: green;
-  font-weight: bold;
-}
