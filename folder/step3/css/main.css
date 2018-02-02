@@ -3,13 +3,12 @@
   font-style: normal;
   font-weight: 400;
   src: local('Luckiest Guy'), local('Luckiest Guy'), url(https://fonts.googleapis.com/css?family=Luckiest+Guy) format('woff2');
-
+}
 @font-face {
-    font-family: 'Rubik Mono One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Rubik Mono One'), local('Rubik Mono One'), url(https://fonts.googleapis.com/css?family=Rubik+Mono+One) format('woff2');
-
+  font-family: 'Rubik Mono One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik Mono One'), local('Rubik Mono One'), url(https://fonts.googleapis.com/css?family=Rubik+Mono+One) format('woff2');
 }
 .lucky {
   font-size: 900px;
