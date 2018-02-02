@@ -1,14 +1,20 @@
-
+.padding {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
 
 .column {
     float: left;
     width: 50%;
+    padding-left: 50px;
 }
 .row:after {
     content: "";
     display: table;
     clear: both;
-
+    padding-left: 50px;
 }
 
 .slow {
@@ -34,7 +40,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: crimson;
+    color: black;
 }
 
 /* mouse over link */
