@@ -36,6 +36,8 @@
 /* unvisited link */
 a:link {
     color: white;
+    font-size: 30px;
+    font-family: Courier, serif;
 }
 
 /* visited link */
@@ -51,4 +53,8 @@ a:hover {
 /* selected link */
 a:active {
     color: tomato;
+}
+.side {
+  position: absolute;
+  left 6000px;
 }
