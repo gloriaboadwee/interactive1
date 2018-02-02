@@ -22,5 +22,21 @@
   font-size: 100px;
   font-family: 'Rubik Mono One', sans-serif;
   padding-top: 20px;
-  line-height: 300px;
+  line-height: 100px;
+  padding: 90px 0 25px 0;
+  transform-origin: 50% 100%;
+  transition: background-color .2s ease-out;
+  animation-duration: 3s;
+  animation-name: fadeAndScale;
+  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
 }
+
+
+
+@keyframes fadeAndScale {
+    from {
+        transform: scale(.6, .6);
+    }
+    to {
+        transform: scale(1, 1);
+    }
