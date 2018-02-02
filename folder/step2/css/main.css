@@ -59,7 +59,7 @@ div.thin {
     font-family: Courier, serif;
     letter-spacing: 11px;
     word-spacing: 15px;
-    color: #7a7d82;
+    color: grey;
     line-height: 200%;
 }
 .slow:hover {

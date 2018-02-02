@@ -1,0 +1,48 @@
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.slow {
+    font-family: Courier, serif;
+    letter-spacing: 11px;
+    word-spacing: 15px;
+    color: black;
+    line-height: 200%;
+}
+.slow:hover {
+    font-family: Courier, serif;
+    letter-spacing: 11px;
+    word-spacing: 15px;
+    color: crimson;
+    line-height: 200%;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: crimson;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: tomato;
+}
