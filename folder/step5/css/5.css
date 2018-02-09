@@ -7,4 +7,39 @@ div {
 
 div:hover {
   background-color: blue;
+  animation-duration: 1s;
+  -webkit-animation-duration: infinite;
+  -webkit-keyframes-name: blink;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: blue;
+  }
+  10% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
+  }
+@-webkit-keyframes blink {
+  0% {
+    background-color: blue;
+  }
+  10% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
+}
 }
