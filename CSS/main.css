@@ -37,7 +37,10 @@ h1 {
   text-align: center;
 }
 
-
+.one:hover {
+    font-family: "Abril Fatface", serif;
+    color: white;
+}
 .float2 {
     float: left;
 }
