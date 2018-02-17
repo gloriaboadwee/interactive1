@@ -27,3 +27,8 @@ img {
     width:100vw;
     padding: 100px;
 }
+
+div.textContainer p {
+    display: inline-block;
+    text-align: left;
+}
