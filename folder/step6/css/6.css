@@ -26,9 +26,14 @@ img {
     text-align: center;
     width:100vw;
     padding: 100px;
+		font-size: 100;
 }
 
 div.textContainer p {
     display: inline-block;
     text-align: left;
+}
+div.a {
+    font-size: 30px;
+		font-family: "Helvetica", sans-serif;
 }
