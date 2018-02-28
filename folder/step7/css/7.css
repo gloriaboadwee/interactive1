@@ -13,20 +13,49 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 0px;
 }
-
 .item {
-	border: 1px solid black;
-	padding: 50px;
+	padding: 0px;
 	transition: all 500ms ease;
+}
+/*images*/
+
+.img1 {
+  image:url('1.png');
+  width:100px;
+  height:100px;
+}
+.img2 {
+
+}.img3 {
+
+}.img4 {
+
+}.img5 {
+
+}.img6 {
+
+}.img7 {
+
+}.img8 {
+
+}.img9 {
+
+}.img10 {
+
+}.img11 {
+
+}.img12 {
+
+}.img13 {
+
+}.img14 {
+
+}.img15 {
+
 }
 
 /* classes to hide and remove */
 
-/* scale an element down */
-
-.shrink {
-	transform: scale( .8 );
-}
 
 /* make the backgrounds colorful */
 
