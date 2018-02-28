@@ -5,13 +5,13 @@
 
 body {
 	min-height: 100vh;
-	min-width: 100vw;
+	min-width: 70vw;
 }
 
 #grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 10px;
+	grid-gap: 0px;
 }
 
 .item {
@@ -36,12 +36,6 @@ body.colorful {
 
 body.colorful .item {
 	background:  linear-gradient(135deg, #fceabb 0%,#fccd4d 93%);;
-}
-
-/* round the corners */
-
-.round {
-	border-radius: 10px;
 }
 
 /* rotates an element in 3d space */
