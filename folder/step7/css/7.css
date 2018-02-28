@@ -15,20 +15,33 @@ body {
 }
 .item {
 	padding: 0px;
-	transition: all 500ms ease;
 }
 /*images*/
 
+.container {
+    width: 100px;
+    height: 100px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
 .img1 {
-  image:url('1.png');
-  width:100px;
-  height:100px;
+  max-height: 100px;
+  max-width: 100px;
+  width: 50px;
+  height: 50px;
 }
 .img2 {
-
+  width:10px;
+  height:10px;
 }
 .img3 {
-
+  width:100px;
+  height:100px;
 }
 .img4 {
 
