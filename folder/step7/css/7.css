@@ -6,6 +6,8 @@
 body {
 	min-height: 100vh;
 	min-width: 70vw;
+  border-left: 100px solid white;
+  border-right: 100px solid white;
 }
 
 #grid {
@@ -14,13 +16,14 @@ body {
 	grid-gap: 0px;
 }
 .item {
-	padding: 0px;
+	padding: 10px;
 }
 /*images*/
 
 .container {
     width: 100px;
     height: 100px;
+    padding: 10px;
 }
 
 /* resize images */
@@ -30,14 +33,12 @@ body {
 }
 
 .img1 {
-  max-height: 100px;
-  max-width: 100px;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 .img2 {
-  width:10px;
-  height:10px;
+  width:100px;
+  height:100px;
 }
 .img3 {
   width:100px;
@@ -50,7 +51,8 @@ body {
 
 }
 .img6 {
-
+  width:50px;
+  height:50px;
 }
 .img7 {
 
