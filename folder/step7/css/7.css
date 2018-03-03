@@ -24,15 +24,26 @@ body {
     width: 100px;
     height: 100px;
     padding: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.container:hover .btn-container {
+
+bottom: 0;
+
 }
 
 /* resize images */
 .container img {
-    width: 100%;
+    width: 100px;
     height: auto;
 }
 
-.img1 {
+#btn {
+    display:hide;
+}
+
+/* .img1 {
   width: 100px;
   height: 100px;
 }

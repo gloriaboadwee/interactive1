@@ -1,12 +1,22 @@
 $(document).ready(function(){
 
+	$('#btn').hover(
+	    function() {
+	        $('#img1').hide();
+	    },function() {
+	        $('#img1').show();
+	    }
+	);
+
+
+
 	// try uncommenting (deleting the // before a line) to see its effects
 
-	$('.item').addClass('shrink');
+	//$('.item').addClass('shrink');
 
 	//$('body').click(function() {
 	//	$(this).toggleClass('colorful');
-	//});	
+	//});
 
 	/* round corners on click */
 
