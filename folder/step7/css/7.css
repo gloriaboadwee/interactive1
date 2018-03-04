@@ -20,75 +20,127 @@ body {
 }
 /*images*/
 
-/* .container {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-}
-*/
-/* resize images */
-.container img {
-    width: 100px;
-    height: auto;
-}
-
 #btn {
-    display:hide;
+    display: none;
 }
 
-/* .img1 {
+#btn2 {
+    display: none;
+}
+
+#btn3 {
+    display: none;
+}
+
+#btn4 {
+    display: none;
+}
+
+#btn5 {
+    display: none;
+}
+
+#btn6 {
+    display: none;
+}
+
+#btn7 {
+    display: none;
+}
+
+#btn8 {
+    display: none;
+}
+
+#btn9 {
+    display: none;
+}
+
+#btn10 {
+    display: none;
+}
+
+#btn11 {
+    display: none;
+}
+
+#btn12 {
+    display: none;
+}
+
+#btn13 {
+    display: none;
+}
+
+#btn14 {
+    display: none;
+}
+
+#btn15 {
+    display: none;
+}
+
+
+#img1 {
   width: 100px;
   height: 100px;
 }
-.img2 {
-  width:100px;
-  height:100px;
+#img2 {
+  width: 100px;
+  height: 100px;
 }
-.img3 {
-  width:100px;
-  height:100px;
+#img3 {
+  width: 100px;
+  height: 100px;
 }
-.img4 {
-
+#img4 {
+  width: 100px;
+  height: 100px;
 }
-.img5 {
-
+#img5 {
+  width: 100px;
+  height: 100px;
 }
-.img6 {
-  width:50px;
-  height:50px;
+#img6 {
+  width: 100px;
+  height: 100px;
 }
-.img7 {
-
+#img7 {
+  width: 100px;
+  height: 100px;
 }
-.img8 {
-
+#img8 {
+  width: 100px;
+  height: 100px;
 }
-.img9 {
-
+#img9 {
+  width: 100px;
+  height: 100px;
 }
-.img10 {
-
+#img10 {
+  width: 100px;
+  height: 100px;
 }
-.img11 {
-
+#img11 {
+  width: 100px;
+  height: 100px;
 }
-.img12 {
-
+#img12 {
+  width: 100px;
+  height: 100px;
 }
-.img13 {
-
+#img13 {
+  width: 100px;
+  height: 100px;
 }
-.img14 {
-
+#img14 {
+  width: 100px;
+  height: 100px;
 }
-.img15 {
-
+#img15 {
+  width: 100px;
+  height: 100px;
 }
-
-/* classes to hide and remove */
-
-
 /* make the backgrounds colorful
 
 body.colorful {
