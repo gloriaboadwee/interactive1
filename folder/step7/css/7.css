@@ -89,7 +89,7 @@ body {
 /* classes to hide and remove */
 
 
-/* make the backgrounds colorful */
+/* make the backgrounds colorful
 
 body.colorful {
 	background:  linear-gradient(to right, #f85032 0%,#2b52ff 100%);
@@ -100,7 +100,8 @@ body.colorful .item {
 }
 
 /* rotates an element in 3d space */
-
+/*
 .rotate {
 	transform: perspective(400px) rotateY(180deg);
 }
+*/
