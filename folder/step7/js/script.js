@@ -121,6 +121,15 @@ $(document).ready(function(){
 					$('#btn15').hide();
 			}
 	);
+
+	$("#btn").hover(function() {
+	    $(this).css('cursor','1.png');
+	}, function() {
+	    $(this).css('cursor','auto');
+	});
+
+
+
 	// try uncommenting (deleting the // before a line) to see its effects
 
 	//$('.item').addClass('shrink');

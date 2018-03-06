@@ -15,10 +15,10 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 0px;
 }
-.item {
-	padding: 10px;
+
+.custom {
+  cursor: url(cursors/cursor.cur), auto;
 }
-/*images*/
 
 #btn {
     display: none;
