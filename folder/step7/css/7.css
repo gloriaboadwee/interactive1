@@ -1,3 +1,19 @@
+
+body {
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+#position {
+	position: absolute;
+}
+
+
+
+
+
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -16,9 +32,7 @@ body {
 	grid-gap: 0px;
 }
 
-.custom {
-  cursor: url(cursors/cursor.cur), auto;
-}
+
 
 #btn {
     display: none;
