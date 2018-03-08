@@ -1,14 +1,6 @@
 $(document).ready(function(){
 
 
-	$('body').mousemove(function(e){
-		$('#position').html('Position X : ' + e.pageX + '<br />Position Y : ' + e.pageY);
-		// try switching the 'top' and 'left' values
-		$('#position').css({ 'top': e.pageY+'px', 'left': e.pageX+'px' });
-	});
-});
-
-
 
 	$('#img1').hover(
 	    function() {
@@ -130,8 +122,13 @@ $(document).ready(function(){
 			}
 	);
 
-
-
+	$(document).ready(function(){
+		$('body').mousemove(function(e){
+			$('.position').html('Position X : ' + e.pageX + '<br />Position Y : ' + e.pageY);
+			// try switching the 'top' and 'left' values
+			$('.position').css({ 'top': e.pageY+'px', 'left': e.pageX+'px' });
+		});
+	});
 
 	// try uncommenting (deleting the // before a line) to see its effects
 
