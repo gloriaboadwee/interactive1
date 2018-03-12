@@ -10,7 +10,25 @@ body {
 	position: absolute;
 }
 
+/*@font-face {
+	font-family: 'Courier New';
+	src: url('fonts'/'Courier New.otf');
+	font-style: normal;
+}
+button {
+	font-family: inherit;
+	font-size: 1em;
+}*/
 
+.btnClass {
+	font-size: 40px;
+}
+
+#button {
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+}
 
 * {
 	margin: 0px;
@@ -22,6 +40,8 @@ body {
 	min-width: 70vw;
   border-left: 100px solid white;
   border-right: 100px solid white;
+	font-family: 'Courier New';
+	font-size: 40px;
 }
 
 #grid {

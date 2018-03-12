@@ -1,11 +1,14 @@
 $(document).ready(function(){
 
-	var button = document.getElementById("counting"),
+
+	var button = document.getElementById("count"),
 	count=0;
 	button.onmouseenter = function(){
 		count+=1;
-		button.innerHTML = "Cursors Found" + count;
+		button.innerHTML = "Cursors Found /15: " + count;
 	}
+
+
 
 	$('#img1').hover(
 	    function() {
