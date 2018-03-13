@@ -28,8 +28,8 @@ body {
 body {
 	min-height: 100vh;
 	min-width: 70vw;
-  border-left: 100px solid white;
-  border-right: 100px solid white;
+  border-left: 100px;
+  border-right: 100px;
 	font-family: 'Courier New';
 	font-size: 40px;
 }
@@ -40,16 +40,17 @@ body {
 	grid-gap: 200px;
 }
 
-body {
-   background-image: url("1.gif");
-   background-color: #black;
-}
+
 
 #btn {
     display: none;
 }
 #btn:hover{
 
+	/*body {
+	   background-image: url("1.gif");
+	   background-color: #black;
+	}*/
 }
 #btn2 {
     display: none;

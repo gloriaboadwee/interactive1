@@ -2,10 +2,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
 	var button = document.getElementById("count"),
 	count=0;
 	button.onmouseenter = function(){
@@ -18,20 +14,21 @@ $(document).ready(function(){
 	$('#img1').hover(
 	    function() {
 	        $('#btn').show();
+					    document.body.style.background = "#f3f3f3 url('gif/1.gif') repeat right top";
 	    }
-
-			// ,function() {
-	    //     $('#btn').hide();
-	    // }
+			,function() {
+	        $(this).css("background", "none");
+	    }
 	);
 
 	$('#img2').hover(
 			function() {
 					$('#btn2').show();
+					 document.body.style.background = "#f3f3f3 url('gif/2.gif') repeat right top";
 			}
-			// ,function() {
-			// 		$('#btn2').hide();
-			// }
+			,function() {
+					 $(this).css("background", "none");
+			}
 	);
 
 	$('#img3').hover(
