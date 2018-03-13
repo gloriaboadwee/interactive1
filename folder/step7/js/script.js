@@ -14,7 +14,7 @@ $(document).ready(function(){
 	// 					$('#btn');
 	// 							document.body.style.background = "#f3f3f3 url('gif/end1.gif') center";
 	// 			}
-  // 
+  //
 	// }
 
 	$('#img1').hover(
