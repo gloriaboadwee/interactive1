@@ -1,4 +1,6 @@
 
+
+
 body {
 	position: relative;
 	min-height: 100vh;
@@ -25,13 +27,31 @@ body {
 	padding: 0px;
 }
 
+div.transbox {
+  margin: 10px;
+  background-color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+	font-family: 'Helvetica';
+  font-weight: bold;
+  color: white;
+}
+
 body {
 	min-height: 100vh;
-	min-width: 70vw;
+	min-width: 50vw;
   border-left: 100px;
   border-right: 100px;
-	font-family: 'Courier New';
-	font-size: 40px;
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+	opacity: 1;
+	filter: alpha(opacity=1);
 }
 
 #grid {
@@ -44,13 +64,6 @@ body {
 
 #btn {
     display: none;
-}
-#btn:hover{
-
-	/*body {
-	   background-image: url("1.gif");
-	   background-color: #black;
-	}*/
 }
 #btn2 {
     display: none;
@@ -177,26 +190,13 @@ body {
 #img14 {
   width: 110px;
   height: 110px;
+	padding: 40px;
 	cursor:none;
 }
 #img15 {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
+	margin: 20px;
+	padding: 40px;
 	cursor:none;
 }
-/* make the backgrounds colorful
-
-body.colorful {
-	background:  linear-gradient(to right, #f85032 0%,#2b52ff 100%);
-}
-
-body.colorful .item {
-	background:  linear-gradient(135deg, #fceabb 0%,#fccd4d 93%);;
-}
-
-/* rotates an element in 3d space */
-/*
-.rotate {
-	transform: perspective(400px) rotateY(180deg);
-}
-*/
