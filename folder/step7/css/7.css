@@ -1,5 +1,8 @@
-
-
+/*
+#end {
+  background:  url('gif/end1.gif') no-repeat center fixed;
+  background-size: cover;
+}*/
 
 body {
 	position: relative;

@@ -8,7 +8,14 @@ $(document).ready(function(){
 		count+=1;
 		button.innerHTML = "Cursors Found  /15: " + count;
 	}
-
+	// if count == 15{
+	// 	$('#end').click(
+	// 			function() {
+	// 					$('#btn');
+	// 							document.body.style.background = "#f3f3f3 url('gif/end1.gif') center";
+	// 			}
+  // 
+	// }
 
 	$('#img1').hover(
 	    function() {
