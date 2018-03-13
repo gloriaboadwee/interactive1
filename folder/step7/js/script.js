@@ -1,6 +1,11 @@
 $(document).ready(function(){
 
 
+
+
+
+
+
 	var button = document.getElementById("count"),
 	count=0;
 	button.onmouseenter = function(){

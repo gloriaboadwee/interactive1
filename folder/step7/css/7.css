@@ -10,16 +10,6 @@ body {
 	position: absolute;
 }
 
-/*@font-face {
-	font-family: 'Courier New';
-	src: url('fonts'/'Courier New.otf');
-	font-style: normal;
-}
-button {
-	font-family: inherit;
-	font-size: 1em;
-}*/
-
 .btnClass {
 	font-size: 40px;
 }
@@ -50,12 +40,17 @@ body {
 	grid-gap: 200px;
 }
 
-
+body {
+   background-image: url("1.gif");
+   background-color: #black;
+}
 
 #btn {
     display: none;
 }
+#btn:hover{
 
+}
 #btn2 {
     display: none;
 }
