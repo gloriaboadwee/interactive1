@@ -2,16 +2,8 @@ $(document).ready(function(){
 
 document.body.style.cursor = 'none';
 
-	// if (n > 15) {
-	// 	$('#end').click()
-	// 			(function(){
-	// 						document.body.style.background = "#f3f3f3 url('gif/end1.gif') center";
-	// });
-
 
 	var n = 0;
-
-
 	/* .one detects if you 'mouseenter' the element only one time */
 	$('.hover').one('mouseenter', function() {
 
@@ -19,20 +11,13 @@ document.body.style.cursor = 'none';
 		$(this).removeClass('hover');
 		n = n+1;
 		$('.number').html(n);
-		// button.innerHTML = "Cursors Found  /15: " + n;
 
 		// update the number n equals to the number of elements on the page
 		if(n == 15 ) {
-			// document.body.style.backgroundColor = "red";
-			setTimeout(function() { alert("game over!")}, 3000);
-			// alert('game over')
+			setTimeout(function() { alert("game over!")}, 2000);
 		}
-	});
-	if(n == 15 ) {
-		alert("play again?");
-		window.location.reload();
-	}
 
+	});
 
 
 	$('#img1').hover(
@@ -208,56 +193,6 @@ document.body.style.cursor = 'none';
  		$('.position').css({ 'top': e.pageY+'px', 'left': e.pageX+'px' });
  	});
 
-	// $(document).ready(function(){
-	// 	$('body').mousemove(function(e){
-	// 		$('.position').html('Position X : ' + e.pageX + '<br />Position Y : ' + e.pageY);
-	// 		// try switching the 'top' and 'left' values
-	// 		$('.position').css({ 'top': e.pageY+'px', 'left': e.pageX+'px' });
-	// 	});
-	// });
 
-	// try uncommenting (deleting the // before a line) to see its effects
-
-	//$('.item').addClass('shrink');
-
-	//$('body').click(function() {
-	//	$(this).toggleClass('colorful');
-	//});
-
-	/* round corners on click */
-
-	// $('body').click(function() {
-	// 	$('.item').toggleClass('round');
-	// });
-
-	/* hover to rotate */
-
-	// $('.item').hover(function() {
-	// 	$(this).toggleClass('rotate');
-	// });
-
-	/* clone an element */
-
-	// $('.item').click(function() {
-	// 	var item = $(this).clone();
-	// 	$('#grid').append(item);
-	// });
-
-	/* remove an element */
-
-	// $('.item').click(function() {
-	// 	$(this).remove();
-	// });
-
-	/* random backgrounds over time */
-
-	// setInterval(function(){
-	// 	$redValue = Math.floor(Math.random()*255);
-	// 	$greenValue = Math.floor(Math.random()*255);
-	// 	$blueValue = Math.floor(Math.random()*255);
-	// 	$('.item').css(
-	// 		'background', 'rgba('+$redValue+','+$blueValue+','+$greenValue+', 1)'
-	// 	);
-	// },500);
 
 });
