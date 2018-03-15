@@ -26,11 +26,12 @@ document.body.style.cursor = 'none';
 			// document.body.style.backgroundColor = "red";
 			setTimeout(function() { alert("game over!")}, 3000);
 			// alert('game over')
-			if(confirm('game over!')){
-			    window.location.reload();
-			}
 		}
 	});
+	if(n == 15 ) {
+		alert("play again?");
+		window.location.reload();
+	}
 
 
 
