@@ -16,10 +16,9 @@ document.body.style.cursor = 'none';
 		// update the number n equals to the number of elements on the page
 		if(n == 15 ) {
 			setTimeout(function() { alert("You found all the cursors!")}, 2000);
+
 		}
-
 	});
-
 
 	$('#img1').hover(
 	    function() {
