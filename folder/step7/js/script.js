@@ -1,14 +1,6 @@
 $(document).ready(function(){
 
 document.body.style.cursor = 'none';
-  //
-	// var button = document.getElementById("count"),
-	// count=0;
-	// button.onmouseenter = function(){
-	// 	count+=1;
-	// 	button.innerHTML = "Cursors Found  /15: " + count;
-	// }
-
 
 	// if (n > 15) {
 	// 	$('#end').click()
@@ -16,14 +8,31 @@ document.body.style.cursor = 'none';
 	// 						document.body.style.background = "#f3f3f3 url('gif/end1.gif') center";
 	// });
 
+
 	var n = 0;
 
-	$('.hover').mouseenter(function(){
+
+	/* .one detects if you 'mouseenter' the element only one time */
+	$('.hover').one('mouseenter', function() {
+
+		// removed . from .hover (. not needed)
 		$(this).removeClass('hover');
 		n = n+1;
 		$('.number').html(n);
 		// button.innerHTML = "Cursors Found  /15: " + n;
+
+		// update the number n equals to the number of elements on the page
+		if(n == 15 ) {
+			// document.body.style.backgroundColor = "red";
+			setTimeout(function() { alert("game over!")}, 3000);
+			// alert('game over')
+			if(confirm('game over!')){
+			    window.location.reload();
+			}
+		}
 	});
+
+
 
 	$('#img1').hover(
 	    function() {
