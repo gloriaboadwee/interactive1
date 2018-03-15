@@ -3,6 +3,7 @@ $(document).ready(function(){
 document.body.style.cursor = 'none';
 
 
+
 	var n = 0;
 	/* .one detects if you 'mouseenter' the element only one time */
 	$('.hover').one('mouseenter', function() {
@@ -14,7 +15,7 @@ document.body.style.cursor = 'none';
 
 		// update the number n equals to the number of elements on the page
 		if(n == 15 ) {
-			setTimeout(function() { alert("game over!")}, 2000);
+			setTimeout(function() { alert("You found all the cursors!")}, 2000);
 		}
 
 	});
