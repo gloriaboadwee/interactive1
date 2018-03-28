@@ -1,14 +1,16 @@
-* { margin: 0px; padding: 0px; }
+* { margin: 100px; padding: 0px; }
 
 body {
-	font-family: garamond;
+	font-family: Courier;
 	color: #b71010;
 	background-color: black;
 }
 
 #desktop{
 	opacity: 1;
-	color: white;
+	/*color: white;*/
+	font-family: Courier;
+	color: grey;
 }
 
  #print {
