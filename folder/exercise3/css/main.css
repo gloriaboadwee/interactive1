@@ -3,7 +3,7 @@
 body {
 	font-family: Courier;
 	background-color: #5E8D6D;
-	border: 50px dotted #87AB78;
+
 }
 
 
@@ -12,6 +12,7 @@ body {
 	font-family: Courier;
 	color: #FFFFA4;
 	font-size: 20px;
+	border: 55px dotted #87AB78;
 }
 
  #print {
@@ -64,20 +65,23 @@ body {
 	}
 
 	#desktop {
-		opacity: 0;
+		display: none;
 	}
 }
 
 /* unvisited link */
 a:link {
     color: #FFFFA4;
+		text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: #FFFFA4;
+		text-decoration: none;
 }
 /* mouse over link */
 a:hover {
     color: #1A4127;
+		text-decoration: none;
 }
