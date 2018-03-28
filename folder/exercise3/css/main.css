@@ -66,3 +66,17 @@ body {
 		opacity: 0;
 	}
 }
+
+/* unvisited link */
+a:link {
+    color: #FFFFA4;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFA4;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
