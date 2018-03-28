@@ -1,16 +1,14 @@
-* { margin: 100px; padding: 0px; }
+* { margin: 50px; padding: 0px; }
 
 body {
 	font-family: Courier;
-	color: #b71010;
-	background-color: black;
+	background-color: #5E8D6D;
 }
 
 #desktop{
 	opacity: 1;
-	/*color: white;*/
 	font-family: Courier;
-	color: grey;
+	color: #FFFFA4;
 }
 
  #print {
@@ -57,7 +55,7 @@ body {
 		background: green;
 	}
 	body {
-		background: green;
+		background-color: green;
 	}
 
 	#print{
