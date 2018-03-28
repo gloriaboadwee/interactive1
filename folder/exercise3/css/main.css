@@ -1,14 +1,17 @@
-* { margin: 50px; padding: 0px; }
+* { margin: 20px; padding: 0px; }
 
 body {
 	font-family: Courier;
 	background-color: #5E8D6D;
+	border: 50px dotted #87AB78;
 }
+
 
 #desktop{
 	opacity: 1;
 	font-family: Courier;
 	color: #FFFFA4;
+	font-size: 20px;
 }
 
  #print {
@@ -52,11 +55,9 @@ body {
 @media print {
 	@page {
 		margin: 50cm;
-		background: green;
+
 	}
-	body {
-		background-color: green;
-	}
+
 
 	#print{
 		opacity: 1;
@@ -78,5 +79,5 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-    color: white;
+    color: #1A4127;
 }
