@@ -1,0 +1,87 @@
+* { margin: 20px; padding: 0px; }
+
+body {
+	font-family: Courier;
+	background-color: #5E8D6D;
+
+}
+
+
+#desktop{
+	opacity: 1;
+	font-family: Courier;
+	color: #FFFFA4;
+	font-size: 20px;
+	border: 55px dotted #87AB78;
+}
+
+ #print {
+	opacity: 0;
+}
+
+/* iPad */
+/*@media (min-width: 668px) and (max-width: 1024px) {
+	body {
+		background: grey;
+		font-size: 30px;
+	}
+
+	#tablet{
+		opacity: 1;
+	}
+
+	#desktop, #mobile, #print {
+		opacity: 0;
+	}
+
+}*/
+
+/* iPhone 6 */
+/*@media (min-width: 375px) and (max-width: 667px) {
+
+	body {
+		background: white;
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #print {
+		opacity: 0;
+	}
+}*/
+
+/* print */
+@media print {
+	@page {
+		margin: 50cm;
+
+	}
+
+
+	#print{
+		opacity: 1;
+	}
+
+	#desktop {
+		display: none;
+	}
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFA4;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFA4;
+		text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #1A4127;
+		text-decoration: none;
+}
