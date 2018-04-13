@@ -8,6 +8,14 @@ body {
 	background-color: #5E8D6D;
 }
 
+#desktop{
+	opacity: 1;
+	font-family: Courier;
+	color: #FFFFA4;
+	font-size: 20px;
+	border: 55px dotted #87AB78;
+}
+
 #position {
 	position: absolute;
 }
@@ -36,4 +44,20 @@ div[class^="page"] {
 		font-size: 80px;
 	}
 
+}
+/* unvisited link */
+a:link {
+    color: #FFFFA4;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFA4;
+		text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #1A4127;
+		text-decoration: none;
 }
