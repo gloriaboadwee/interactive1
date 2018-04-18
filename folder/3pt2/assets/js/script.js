@@ -1,22 +1,16 @@
 $(document).ready(function(){
 
 	n = 1;
-	var items = Array('/','|','-','+','=');
 
-	$('body').on( "mousemove", function(e) {
-		// move #position on mouse move
-		$('#position').css({ 'top': e.pageY+'px', 'left': e.pageX+'px' });
-		// copy element on mousemove
-		var clone = $('#position').clone();
-		$('.page-'+n).append(clone);
-	});
+	setInterval(function(){
+		$('body').append('<img src="img/circle.png" />');
 
-	$('body').click(function(){
+		if (n%10 == 0) {
+			$('body').append('<div class="break"></div>');
+		}
+
 		n++;
-		var item = items[Math.floor(Math.random()*items.length)];
-		$('#position').html(item);
-		$('body').append('<div class="break"></div><div class="page-'+n+'"></div>');
-	});
 
+	},1000);
 
 });
