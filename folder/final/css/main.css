@@ -1,0 +1,9 @@
+* {margin: 0px; padding 0px;}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+	font-family: Courier;
+	background-color: #5E8D6D;
+}
