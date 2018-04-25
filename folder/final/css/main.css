@@ -4,7 +4,7 @@ body {
 	position: relative;
 	min-height: 100vh;
 	min-width: 100vw;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	background-color: white;
 }
 
@@ -13,6 +13,5 @@ img {
 	height: auto;
 }
 #popup1 {
-  width: 110px;
-  height: 110px;
+  width: 400px;
 }
