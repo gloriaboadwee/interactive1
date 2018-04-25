@@ -1,0 +1,45 @@
+* {margin: 10px; padding 0px;}
+
+body {
+	min-height: 100vh;
+	min-width: 100vw;
+font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+	background-color: white;
+  font-size: 50px;
+  position: relative;
+  left:100px;
+  line-height: 80px;
+  box-shadow: 10px 10px #ff5c33;
+}
+iframe {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px #ff5c33;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+h1 {
+font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px #ff5c33;
+  text-align: left;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: black;}
+}
