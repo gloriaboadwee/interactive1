@@ -1,16 +1,21 @@
 * {margin: 10px; padding 0px;}
 
+
 body {
 	min-height: 100vh;
 	min-width: 100vw;
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 	background-color: white;
   font-size: 50px;
   position: relative;
-  left:100px;
+  left:30px;
   line-height: 80px;
   box-shadow: 10px 10px #ff5c33;
+  margin:auto;
+	width: 100vh;
+	max-width: 1500vw;
+	min-width: 1500px;
 }
 iframe {
     left: 50%;
@@ -32,7 +37,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .flash {
    animation-name: flash;
-    animation-duration: 0.3s;
+    animation-duration: 0.2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -42,4 +47,10 @@ font-family: 'Josefin Sans', sans-serif;
 @keyframes flash {
     from {color: white;}
     to {color: black;}
+}
+
+img {
+	width: 100px;
+	height: 100px;
+  padding-right: 20;
 }
