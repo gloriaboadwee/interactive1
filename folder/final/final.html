@@ -2,46 +2,66 @@
 <html>
 <head>
 	<title>pop ups</title>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/script.js"></script>
 	<link rel="icon" href="img/square.png">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-
-<center><img src="img/popup2.jpeg" id="jsstyle"
-onclick="getRandomImage()"  /></center>
+<center>
+	<img src="img/popup2.jpeg" id="jsstyle" onclick="getRandomImage()"  />
+</center>
 
 
 <div>
-<button id="jsstyle"
-onclick="getRandomImage();"> </button>
+	<button id="jsstyle" onclick="getRandomImage();"> </button>
 </div>
 
 <div id="popup1">
-				<img src="img/popup1.jpeg"
-				 width="400"
-				 onclick="getRandomImage();"
+	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();" />
 </div>
 
 <script type="text/javascript">
 
 function getRandomImage(imgAr) {
 
-		var imgAr = ['img/popup1.jpeg', 'img/popup2.jpeg', 'img/popup3.jpeg', 'img/popup4.jpeg', 'img/popup5.jpeg', 'img/popup6.jpeg','img/popup7.jpeg'];
+	var imgAr = ['img/popup1.jpeg', 'img/popup2.jpeg', 'img/popup3.jpeg', 'img/popup4.jpeg', 'img/popup5.jpeg', 'img/popup6.jpeg','img/popup7.jpeg'];
 
     var num = Math.floor( Math.random() * imgAr.length );
     var img = imgAr[ num ];
-    var imgStr = '<img src="'+ img + '" alt = "" />';
-    document.write(imgStr); document.close();
+
+    // create img
+    var imgSrc = document.createElement('img');
+
+	// randomly position img
+	imgSrc.style.position = 'absolute';
+	imgSrc.style.left = Math.round(Math.random() * document.body.scrollWidth - 200) + 'px';
+	imgSrc.style.top = Math.round(Math.random() * document.body.scrollHeight - 200) + 'px';
+
+	// change images source
+	imgSrc.src = img;
+
+	// append image rather then replacing body's content
+    document.body.appendChild(imgSrc); document.close();
+
+		// var counter=0
+		//
+		// document.getElementById("counter").onclick=function(){
+		//     counter=counter+1;
+		//     this.innerHTML=counter}
+		//
+		// document.getElementById("reset").onclick=function(){
+		//     counter=0
+		//     document.getElementById("counter").innerHTML=counter;
+		// }
+
+
+		// var count = 0;
+		// 		return count + num;
+		// if (count > 20) {
+		// 		greeting = "This site explores algorithms that choose which ads to show people based on their internet activity. Websites like Google use services such as DoubleClick. DoubleClick uses web cookies to track browsing behavior by IP address to deliver targeted ads. This tracking is annoying and most people don’t like it. The pop up is more and more a thing of the past, but in this context it parallels the invasiveness of modern ads accurately and visibly. ";
 
 }
-
 </script>
-
-</head>
-<body>
 
 </body>
 </html>
