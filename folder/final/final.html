@@ -7,20 +7,40 @@
 </head>
 <body>
 
+
 <center>
 	<img src="img/popup2.jpeg" id="jsstyle" onclick="getRandomImage()"  />
 </center>
 
 
-<div>
-	<button id="jsstyle" onclick="getRandomImage();"> </button>
+	<div id="delayedText" style="visibility:hidden">
+<p>This site explores algorithms that choose which ads to show people based on their internet activity. Websites like Google use services such as DoubleClick. DoubleClick uses web cookies to track browsing behavior by IP address to deliver targeted ads. This tracking is annoying and most people don’t like it. The pop up is more and more a thing of the past, but in this context it parallels the invasiveness of modern ads accurately and visibly.</p>
+	</div>
+<div id="popup1">
+	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();"
 </div>
 
-<div id="popup1">
-	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();" />
-</div>
 
 <script type="text/javascript">
+
+function MousePosition(event) {
+  document.body.textContent =
+    "clientX: " + event.clientX +
+    " - clientY: " + event.clientY;
+}
+
+// document.addEventListener("click", MousePosition);
+
+// (function($) {
+// 	 $(document).ready(function() {
+//
+// 			 $(window).click(function(e) {
+// 					 var relativeX = (e.pageX - $(e.target).offset().left),
+// 							 relativeY = (e.pageY - $(e.target).offset().top);
+// 							 alert("X: " + relativeX + "  Y: " + relativeY);
+// 			 });
+// 	 });
+// });
 
 function getRandomImage(imgAr) {
 
@@ -42,24 +62,14 @@ function getRandomImage(imgAr) {
 
 	// append image rather then replacing body's content
     document.body.appendChild(imgSrc); document.close();
+}
 
-		// var counter=0
-		//
-		// document.getElementById("counter").onclick=function(){
-		//     counter=counter+1;
-		//     this.innerHTML=counter}
-		//
-		// document.getElementById("reset").onclick=function(){
-		//     counter=0
-		//     document.getElementById("counter").innerHTML=counter;
-		// }
-
-
-		// var count = 0;
-		// 		return count + num;
-		// if (count > 20) {
-		// 		greeting = "This site explores algorithms that choose which ads to show people based on their internet activity. Websites like Google use services such as DoubleClick. DoubleClick uses web cookies to track browsing behavior by IP address to deliver targeted ads. This tracking is annoying and most people don’t like it. The pop up is more and more a thing of the past, but in this context it parallels the invasiveness of modern ads accurately and visibly. ";
-
+window.onload = function(){
+	var Delay = 5;
+	var timer = setTimeout("showText()",Delay*2400)
+}
+function showText(){
+	document.getElementById("delayedText").style.visibility = "visible";
 }
 </script>
 

@@ -6,6 +6,7 @@ body {
 	min-width: 100vw;
 	font-family: Helvetica, sans-serif;
 	background-color: white;
+	color: black;
 }
 
 img {
@@ -14,4 +15,29 @@ img {
 }
 #popup1 {
   width: 400px;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+@media print {
+	.break	{ display: block; page-break-before: always; }
+
+	div[class^="page"] {
+		position: relative;
+		font-size: 70px;
+	}
+	img {
+		display: none;
+	}
+	p {
+		display: none;
+	}
+	MousePosition{
+		display: show;
+	}
 }
