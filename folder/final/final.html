@@ -19,6 +19,9 @@
 	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();" />
 </div>
 
+
+
+
 <script type="text/javascript">
 
 // $(document).ready(function){
@@ -32,10 +35,14 @@ function MousePosition(event, elementTag) {
 	var body = document.getElementsByTagName('body');
  	document.body.innerHTML +='<span class="pos">clientX: ' + event.clientX + ' - clientY: ' + event.clientY + '</span>';
 }
-
 document.addEventListener("click", MousePosition);
 
 
+document.addEventListener('click',function(e){
+    if (e.target && e.target.tagName == 'IMG'){
+    	getRandomImage();
+	}
+});
 
 function getRandomImage(imgAr) {
 
@@ -66,6 +73,10 @@ window.onload = function(){
 function showText(){
 	document.getElementById("delayedText").style.visibility = "visible";
 }
+
+
+
+
 </script>
 
 </body>

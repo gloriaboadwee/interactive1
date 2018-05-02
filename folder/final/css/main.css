@@ -17,13 +17,17 @@ img {
   width: 400px;
 }
 
-.popup {
+img {
 	box-shadow: 0px 0px 10px #000;
 	display: inline-block;
 	margin: auto;
 }
-.popup:hover img {
+/*.popup:hover img {
 	opacity: 0;
+}*/
+
+img:hover {
+    opacity: 0.5;
 }
 
 p {
@@ -38,7 +42,7 @@ p {
 	font-family: Helvetica, sans-serif;
 	font-size: 60px;
 	font-weight: bold;
-	display: none;
+	opacity: 0;
 }
 
 @media print {
@@ -54,10 +58,7 @@ p {
 	p {
 		display: none;
 	}
-	MousePosition{
-		display: show;
-	}
 	.pos {
-		display: show;
+		opacity: 100;
 	}
 }
