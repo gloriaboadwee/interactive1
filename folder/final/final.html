@@ -7,29 +7,35 @@
 </head>
 <body>
 
-
-<center>
+<div class="popup">
 	<img src="img/popup2.jpeg" id="jsstyle" onclick="getRandomImage()"  />
-</center>
+</div>
 
 
 	<div id="delayedText" style="visibility:hidden">
 <p>This site explores algorithms that choose which ads to show people based on their internet activity. Websites like Google use services such as DoubleClick. DoubleClick uses web cookies to track browsing behavior by IP address to deliver targeted ads. This tracking is annoying and most people don’t like it. The pop up is more and more a thing of the past, but in this context it parallels the invasiveness of modern ads accurately and visibly.</p>
 	</div>
 <div id="popup1">
-	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();"
+	<img src="img/popup1.jpeg" width="400" onclick="getRandomImage();" />
 </div>
 
-
 <script type="text/javascript">
+
+// $(document).ready(function){
+// 	$("#delayedText").click(function)(){
+// 		$("img").hide();
+// 	})
+
 
 function MousePosition(event, elementTag) {
 
 	var body = document.getElementsByTagName('body');
- 	document.body.innerHTML +='clientX: ' + event.clientX + ' - clientY: ' + event.clientY;
+ 	document.body.innerHTML +='<span class="pos">clientX: ' + event.clientX + ' - clientY: ' + event.clientY + '</span>';
 }
 
 document.addEventListener("click", MousePosition);
+
+
 
 function getRandomImage(imgAr) {
 
