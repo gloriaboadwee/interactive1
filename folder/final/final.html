@@ -23,24 +23,13 @@
 
 <script type="text/javascript">
 
-function MousePosition(event) {
-  document.body.textContent =
-    "clientX: " + event.clientX +
-    " - clientY: " + event.clientY;
+function MousePosition(event, elementTag) {
+
+	var body = document.getElementsByTagName('body');
+ 	document.body.innerHTML +='clientX: ' + event.clientX + ' - clientY: ' + event.clientY;
 }
 
-// document.addEventListener("click", MousePosition);
-
-// (function($) {
-// 	 $(document).ready(function() {
-//
-// 			 $(window).click(function(e) {
-// 					 var relativeX = (e.pageX - $(e.target).offset().left),
-// 							 relativeY = (e.pageY - $(e.target).offset().top);
-// 							 alert("X: " + relativeX + "  Y: " + relativeY);
-// 			 });
-// 	 });
-// });
+document.addEventListener("click", MousePosition);
 
 function getRandomImage(imgAr) {
 
